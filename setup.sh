@@ -25,3 +25,6 @@ ln -s ${PWD}/rofi/dracula.rasi ~/.config/rofi/dracula.rasi
 
 echo "Setting up zsh"
 ln -s ${PWD}/zsh/.zshrc ~/.zshrc
+
+echo "Setting up background"
+ln -s ${PWD}/wallpaper.jpg ~/wallpaper.jpg
