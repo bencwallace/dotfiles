@@ -8,3 +8,4 @@
 * alsa
 * pulseaudio
 * feh
+* kitty
