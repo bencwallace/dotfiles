@@ -28,3 +28,6 @@ ln -s ${PWD}/zsh/.zshrc ~/.zshrc
 
 echo "Setting up background"
 ln -s ${PWD}/wallpaper.jpg ~/wallpaper.jpg
+
+echo "Setting up vim"
+ln -s ${PWD}/vim/.vimrc ~/.vimrc
