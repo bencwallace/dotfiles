@@ -3,6 +3,9 @@
 echo "Setting up i3"
 mkdir -p ~/.config/i3
 ln -s ${PWD}/i3/config ~/.config/i3/config
+ln -s ${PWD}/i3/adjust_brightness.sh ~/.config/i3/adjust_brightness.sh
+ln -s ${PWD}/i3/wallpaper.jpg ~/.config/i3/wallpaper.jpg
+ln -s ${PWD}/i3/lock.jpg ~/.config/i3/lock.jpg
 
 echo "Setting up i3status"
 mkdir -p ~/.config/i3status
