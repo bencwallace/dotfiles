@@ -240,3 +240,23 @@ bar {
 
 # -- end dracula -- #
 
+
+# settings for IRBT-9072l
+# change to use `include` directive after upgrading to i3 v4.20
+
+set $display_left DP-1-1-3
+set $display_center DP-1-1-2
+set $display_right eDP-1-1
+
+workspace 1 output $display_left
+workspace 2 output $display_center
+workspace 3 output $display_right
+workspace 4 output $display_left
+workspace 5 output $display_center
+workspace 6 output $display_right
+workspace 7 output $display_left
+workspace 8 output $display_center
+workspace 9 output $display_right
+
+assign [class="Slack"] 3
+
