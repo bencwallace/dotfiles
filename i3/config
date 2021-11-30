@@ -244,6 +244,8 @@ bar {
 # settings for IRBT-9072l
 # change to use `include` directive after upgrading to i3 v4.20
 
+exec ~/.config/i3/display.sh
+
 set $cisco_anyconnect_class "Cisco AnyConnect Secure Mobility Client"
 for_window [class=$cisco_anyconnect_class] floating enable
 assign [class=$cisco_anyconnect_class] scratchpad
