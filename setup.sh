@@ -35,3 +35,6 @@ ln -sf ${PWD}/wallpaper.jpg ~/wallpaper.jpg
 
 echo "Setting up vim"
 ln -sf ${PWD}/vim/.vimrc ~/.vimrc
+
+echo "Setting up misc"
+ln -sf ${PWD}/misc/.profile ~/.profile
