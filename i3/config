@@ -241,10 +241,6 @@ bar {
 
 # -- end dracula -- #
 
-# settings for zom
-for_window [title="^zoom$" class="[zoom]*"] floating enabled
-for_window [title="^zoom$" class="[zoom]*"] move scratchpad
-
 # settings for IRBT-9072l
 # change to use `include` directive after upgrading to i3 v4.20
 
