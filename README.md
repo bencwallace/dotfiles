@@ -8,4 +8,4 @@
 * alsa
 * pulseaudio
 * feh
-* kitty
+* xss-lock
