@@ -253,9 +253,9 @@ exec /opt/cisco/anyconnect/bin/vpnui
 
 for_window [class="gnome-mines"] floating enable
 
-set $display_left DP-1-2-3
-set $display_center DP-1-2-2
-set $display_right eDP-1-1
+set $display_left eDP-1-1
+set $display_center DP-1-2-3
+set $display_right DP-1-2-2
 
 workspace 1 output $display_left
 workspace 2 output $display_center
