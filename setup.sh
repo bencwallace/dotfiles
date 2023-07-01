@@ -29,7 +29,7 @@ echo "Setting up zsh"
 ln -sf ${PWD}/zsh/.zshrc ~/.zshrc
 
 echo "Setting up background"
-ln -sf ${PWD}/wallpaper.jpg ~/wallpaper.jpg
+ln -sf ${PWD}/wallpaper.jpg ~/.config/i3/wallpaper.jpg
 
 echo "Setting up vim"
 ln -sf ${PWD}/vim/.vimrc ~/.vimrc
