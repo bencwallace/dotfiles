@@ -30,10 +30,10 @@ end tell'
 '''
 
 # i3 wraps focus by default
-alt-h =         'focus --boundaries-action wrap-around-the-workspace left'
-alt-j =         'focus --boundaries-action wrap-around-the-workspace down'
-alt-k =         'focus --boundaries-action wrap-around-the-workspace up'
-alt-l = 'focus --boundaries-action wrap-around-the-workspace right'
+alt-h =         ['focus --boundaries-action wrap-around-the-workspace left', 'move-mouse window-lazy-center']
+alt-j =         ['focus --boundaries-action wrap-around-the-workspace down', 'move-mouse window-lazy-center']
+alt-k =         ['focus --boundaries-action wrap-around-the-workspace up', 'move-mouse window-lazy-center']
+alt-l = ['focus --boundaries-action wrap-around-the-workspace right', 'move-mouse window-lazy-center']
 
 alt-shift-j = 'move left'
 alt-shift-k = 'move down'
