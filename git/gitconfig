@@ -1,0 +1,37 @@
+[alias]
+    co = checkout
+    ci = commit
+    st = status
+    br = branch
+
+[core]
+    abbrev = 8
+    excludesfile = ~/.gitignore
+
+[fetch]
+    prune = true
+    pruneTags = true
+
+[help]
+    autocorrect = prompt
+
+[log]
+    date = local
+
+[push]
+    autoSetupRemote = true
+
+[rebase]
+    autoStash = true
+    # updateRefs = true
+
+[rerere]
+    enabled = true
+    autoupdate = true
+
+[submodule]
+    recurse = true
+
+[user]
+    email = bencwallace@gmail.com
+    name = Ben Wallace

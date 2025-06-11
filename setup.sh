@@ -36,3 +36,7 @@ ln -sf ${PWD}/vim/.vimrc ~/.vimrc
 
 echo "Setting up misc"
 ln -sf ${PWD}/misc/.profile ~/.profile
+
+echo "Setting up git"
+mkdir -p ~/.config/git
+ln -sf ${PWD}/git/gitconfig ~/.gitconfig
